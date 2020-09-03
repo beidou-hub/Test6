@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @RequestMapping("route")
     public String getString(){
-       String a ="hello Beidou";
-        return a;
+
+        return "hello beidou";
     }
 }
