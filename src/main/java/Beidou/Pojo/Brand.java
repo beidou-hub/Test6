@@ -36,4 +36,19 @@ public class Brand {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public Brand(Integer id, String brand, String color) {
+        this.id = id;
+        this.brand = brand;
+        this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Brand{" +
+                "id=" + id +
+                ", brand='" + brand + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
